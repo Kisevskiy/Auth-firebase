@@ -85,6 +85,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
         progressBar.setVisibility(View.VISIBLE);
 
+
         mAuth.signInWithEmailAndPassword(email,password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
             @Override
             public void onComplete(@NonNull Task<AuthResult> task) {
