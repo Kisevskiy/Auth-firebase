@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "861989626987",
+    "project_id": "authnotes-42366",
+    "storage_bucket": "authnotes-42366.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:861989626987:android:288cc87c9845abee683d2e",
+        "android_client_info": {
+          "package_name": "com.example.authnotes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "861989626987-htdsn8pfu98v2mms3c868qvafrtbridh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCN3q_kCOtjH0q0Q5vnriBCVpVGLp2mN7k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "861989626987-htdsn8pfu98v2mms3c868qvafrtbridh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
