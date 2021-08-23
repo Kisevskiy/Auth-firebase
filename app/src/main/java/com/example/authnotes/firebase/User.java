@@ -1,4 +1,4 @@
-package com.example.authnotes;
+package com.example.authnotes.firebase;
 
 public class User {
 

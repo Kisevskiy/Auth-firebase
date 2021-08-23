@@ -1,8 +1,10 @@
-package com.example.authnotes;
+package com.example.authnotes.room;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.example.authnotes.R;
 
 public class ProfileActivity extends AppCompatActivity {
 

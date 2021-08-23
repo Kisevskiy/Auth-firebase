@@ -13,12 +13,12 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.authnotes.firebase.RegisterUser;
+import com.example.authnotes.room.ProfileActivity;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
-
-import java.util.regex.Pattern;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
 
@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View v) {
         switch (v.getId()){
             case R.id.register:
-                startActivity(new Intent(this,RegisterUser.class));
+                startActivity(new Intent(this, RegisterUser.class));
                 break;
 
             case R.id.signIn:
@@ -90,7 +90,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             @Override
             public void onComplete(@NonNull Task<AuthResult> task) {
                 if(task.isSuccessful()){
-                    startActivity(new Intent(MainActivity.this,ProfileActivity.class));
+                    startActivity(new Intent(MainActivity.this, ProfileActivity.class));
 
             }else {
                     Toast.makeText(MainActivity.this,"Failed",Toast.LENGTH_LONG).show();
