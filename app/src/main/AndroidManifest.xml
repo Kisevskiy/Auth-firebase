@@ -12,8 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AuthNotes"
         android:usesCleartextTraffic="true">
-        <activity android:name=".room.ProfileActivity"></activity>
-        <activity android:name=".firebase.RegisterUser"></activity>
+        <activity android:name=".room.NewWordActivity"></activity>
+        <activity android:name=".room.ProfileActivity" />
+        <activity android:name=".firebase.RegisterUser" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
